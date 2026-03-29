@@ -70,7 +70,7 @@ To build a complete two-way communicating system, you will need **two sets** of 
 * **SCL** ➔ GPIO 22
 
 ### ESP32 to SX1278 LoRa (SPI)
-* **VCC** ➔ 3.3V *(Strictly 3.3V!)*
+* **VCC** ➔ 3.3V 
 * **GND** ➔ GND
 * **SCK** ➔ GPIO 18
 * **MISO** ➔ GPIO 19
@@ -82,7 +82,7 @@ To build a complete two-way communicating system, you will need **two sets** of 
 ### ESP32 to Buzzer
 * **VCC** ➔ VIN / 5V
 * **GND** ➔ GND
-* **Signal** ➔ GPIO 26 *(Moved from 19 to avoid SPI conflict)*
+* **Signal** ➔ GPIO 26 
 
 ---
 
